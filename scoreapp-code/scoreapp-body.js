@@ -264,6 +264,15 @@
 
   domains = applyRealScores(domains);
 
+  function getLeadName() {
+    try {
+      var result = window.pageData.props.data.result;
+      return { first: result.first_name || "", last: result.last_name || "" };
+    } catch (e) {
+      return null;
+    }
+  }
+
   function esc(value) {
     return String(value).replace(/[&<>"']/g, function (char) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[char];
@@ -456,11 +465,12 @@
       '<div class="tag-pa-social"><p>Stay in touch</p><div class="tag-pa-social-links"><span><i>&#9679;</i>Website</span><span><i>in</i>LinkedIn</span></div></div></div>', 21);
   }
 
+  var leadName = getLeadName();
   var pages = [];
   pages.push(page("tag-pa-cover", header(false) +
     '<div class="tag-pa-cover-stripes"><span></span><span></span><span></span></div>' +
     '<div class="tag-pa-cover-dot"></div>' +
-    '<h1 class="tag-pa-cover-name"><span>[First Name]</span><span>[Last Name]</span></h1>' +
+    '<h1 class="tag-pa-cover-name"><span>' + esc(leadName && leadName.first ? leadName.first : "[First Name]") + '</span><span>' + esc(leadName && leadName.last ? leadName.last : "[Last Name]") + '</span></h1>' +
     '<hr class="tag-pa-cover-rule" />' +
     '<h2 class="tag-pa-display">Your Performance<br>Architecture Roadmap</h2>' +
     '<p class="tag-pa-copy">A score-responsive report that makes the conditions shaping the work you influence visible - and establishes where to focus next.</p>' +
