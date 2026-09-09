@@ -210,6 +210,60 @@
     }
   ];
 
+  var CONDITION_BANDS = [
+    { max: 2.4, name: "Reactive", color: "#e9502a", textColor: "#fff" },
+    { max: 3.0, name: "Managed", color: "#0bb996", textColor: "#fff" },
+    { max: 3.9, name: "Deliberate", color: "#8ac43f", textColor: "#14151d" },
+    { max: 4.5, name: "Integrated", color: "#f0a83a", textColor: "#14151d" },
+    { max: 5.01, name: "Architected", color: "#1f9a8d", textColor: "#fff" }
+  ];
+
+  function resolveBand(score) {
+    for (var i = 0; i < CONDITION_BANDS.length; i++) {
+      if (score <= CONDITION_BANDS[i].max) return CONDITION_BANDS[i];
+    }
+    return CONDITION_BANDS[CONDITION_BANDS.length - 1];
+  }
+
+  function getRealScores() {
+    try {
+      var scores = window.pageData.props.data.result.scores;
+      var map = {};
+      scores.forEach(function (s) {
+        if (s.type === "total" || !s.category || !s.score_count) return;
+        map[s.category.title] = s.score / s.score_count;
+      });
+      return map;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function applyRealScores(list) {
+    var real = getRealScores();
+    if (!real) return list;
+
+    list.forEach(function (d) {
+      var raw = real[d.name];
+      if (raw == null) return;
+      var rounded = Math.round(raw * 10) / 10;
+      var band = resolveBand(rounded);
+      d.score = rounded.toFixed(1);
+      d.condition = band.name;
+      d.color = band.color;
+      d.textColor = band.textColor;
+    });
+
+    list.sort(function (a, b) { return parseFloat(a.score) - parseFloat(b.score); });
+    list.forEach(function (d, i) {
+      d.order = String(i + 1).padStart(2, "0");
+      d.flag = i === 0;
+    });
+    return list;
+  }
+
+  domains = applyRealScores(domains);
+
   function esc(value) {
     return String(value).replace(/[&<>"']/g, function (char) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[char];
@@ -361,7 +415,7 @@
       '<div class="tag-pa-roadmap" style="border-top:2px solid var(--tag-ink)">' + domains.map(function (d) {
         return '<article class="tag-pa-road-row"><span class="tag-pa-road-num">' + d.order + '</span><h4>' + esc(d.name) + '</h4><span class="tag-pa-road-score">' + d.score + '</span><p class="tag-pa-road-next">' + esc(d.condition + " · " + d.next) + '</p></article>';
       }).join("") + '</div>' +
-      '<div class="tag-pa-callout ink"><h3>Begin here</h3><p>' + highlight("Your first design priority is APS Design. A shared company brain gives the other four domains a stronger place to operate from.", "APS Design.", "tag-pa-orange") + '</p></div>', 18);
+      '<div class="tag-pa-callout ink"><h3>Begin here</h3><p>' + highlight("Your first design priority is " + domains[0].name + ". Strengthening this condition gives the other four domains a stronger place to operate from.", domains[0].name + ".", "tag-pa-orange") + '</p></div>', 18);
   }
 
   function commitmentPage() {
@@ -369,8 +423,8 @@
       '<p class="tag-pa-kicker">Turn insight into action</p><h1 class="tag-pa-title">Your First 90-Day <span class="tag-pa-em">Design Commitment</span></h1>' +
       '<p class="tag-pa-copy">The report becomes valuable only when one limiting condition is turned into structured work. Use this page to establish the first decision and the first review point.</p>' +
       '<div class="tag-pa-fields">' +
-      '<div class="tag-pa-field" style="border-top-color:#0bb996"><h4>Priority domain</h4><p>APS Design</p></div>' +
-      '<div class="tag-pa-field" style="border-top-color:#8ac43f"><h4>Current condition</h4><p>Reactive · 2.3</p></div>' +
+      '<div class="tag-pa-field" style="border-top-color:#0bb996"><h4>Priority domain</h4><p>' + esc(domains[0].name) + '</p></div>' +
+      '<div class="tag-pa-field" style="border-top-color:#8ac43f"><h4>Current condition</h4><p>' + esc(domains[0].condition) + ' · ' + domains[0].score + '</p></div>' +
       '<div class="tag-pa-field" style="border-top-color:#f0a83a"><h4>Value stream or work affected</h4><span class="tag-pa-line"></span></div>' +
       '<div class="tag-pa-field" style="border-top-color:#e9502a"><h4>Result to improve</h4><span class="tag-pa-line"></span></div>' +
       '<div class="tag-pa-field" style="border-top-color:#0bb996"><h4>First architectural decision</h4><span class="tag-pa-line"></span></div>' +
