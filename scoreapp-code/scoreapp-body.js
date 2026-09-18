@@ -272,7 +272,7 @@
         "heading": "Your current condition",
         "paragraphs": [
           "APS Design is the ability to create the shared brain that guides how a company and its people think, access information, and make decisions. It connects two essential environments: the internal brain that enables people to perform their work, and the external brain that enables clients to obtain the exact information they need when they need it.",
-          "Your current APS Design condition is **Reactive**. Information, answers, and decision logic are likely held in individual people, disconnected files, or informal conversations. When an internal or external client asks a question, the organization responds by finding someone helpful rather than examining why the information was not available at the point of need.",
+          "Your current APS Design condition is **Reactive.** Information, answers, and decision logic are likely held in individual people, disconnected files, or informal conversations. When an internal or external client asks a question, the organization responds by finding someone helpful rather than examining why the information was not available at the point of need.",
           "This creates an organization that can appear responsive while remaining dependent on memory, effort, and interruption. People work hard to answer questions that the operating system should have anticipated. Decisions are repeatedly reconstructed because the logic behind them is not visible, shared, or easy to retrieve.",
           "The people involved are committed. The company brain has not yet been deliberately designed."
         ]
@@ -303,7 +303,7 @@
         "readerTitle": "APS Design: Managed",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your APS Design condition is **Managed**. Within the organization you influence, important information, processes, and decision logic are becoming visible. Templates, shared files, procedures, systems, and experienced leaders provide a workable structure. People generally know where to look or who to ask.",
+          "Your APS Design condition is **Managed.** Within the organization you influence, important information, processes, and decision logic are becoming visible. Templates, shared files, procedures, systems, and experienced leaders provide a workable structure. People generally know where to look or who to ask.",
           "This is meaningful progress. Your company brain is no longer entirely held in individual memory. Yet it is often fragmented across platforms, teams, folders, and informal workarounds. Information may exist, but it is not always current, connected, or available at the exact point where a person needs to make a decision.",
           "Your internal and external brains may also be developing separately. Employees can find some information through internal systems, while clients rely on emails, conversations, or manual follow-up. Both environments work, but neither consistently anticipates need.",
           "At this condition, you are managing information reasonably well. The next requirement is to design it as a connected operating capability rather than a collection of useful resources."
@@ -336,7 +336,7 @@
         "readerTitle": "APS Design: Deliberate",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your APS Design condition is **Deliberate**. You have moved beyond simply storing information. You are designing how people discover what is needed, access it, and apply it in decisions. Important questions are increasingly treated as information-design signals rather than isolated requests for help.",
+          "Your APS Design condition is **Deliberate.** You have moved beyond simply storing information. You are designing how people discover what is needed, access it, and apply it in decisions. Important questions are increasingly treated as information-design signals rather than isolated requests for help.",
           "You have established a visible approach to building the company brain. Discovery occurs before design. Information is structured around meaningful touchpoints. Some shared decision logic, standards, workflows, and knowledge environments are in place. You are increasingly able to help people find the right answer without relying entirely on individual memory.",
           "The remaining challenge is consistency across the whole value stream. Certain teams, client moments, or decisions may be well designed, while others still rely on local interpretation or your intervention. The brain exists, but it is not yet fully integrated across internal and external environments.",
           "At this condition, you can see that information design is more than administration. It is performance architecture."
@@ -368,7 +368,7 @@
         "readerTitle": "APS Design: Integrated",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your APS Design condition is **Integrated**. You have a connected company brain that increasingly guides how people think, access information, and make decisions. Internal teams and external clients are supported by clearer information paths, shared standards, and visible decision logic.",
+          "Your APS Design condition is **Integrated.** You have a connected company brain that increasingly guides how people think, access information, and make decisions. Internal teams and external clients are supported by clearer information paths, shared standards, and visible decision logic.",
           "Information is more likely to be available at the point of need. You use questions as evidence. Functions are better connected. You spend less time acting as the answer system because the operating environment helps people find, understand, and apply what is required.",
           "At this condition, APS Design is contributing directly to performance. It reduces friction, improves decision quality, and creates greater consistency across the work you influence. You can see more clearly how information design shapes client experience, team capability, and execution.",
           "The remaining opportunity is to ensure the company brain does more than connect today’s work. It must also anticipate changing needs, learn from performance, and evolve before gaps become visible under pressure."
@@ -400,7 +400,7 @@
         "readerTitle": "APS Design: Architected",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your APS Design condition is **Architected**. You have created a living company brain that helps internal teams and external clients obtain the right information when they need it, apply shared decision logic, and act with greater confidence.",
+          "Your APS Design condition is **Architected.** You have created a living company brain that helps internal teams and external clients obtain the right information when they need it, apply shared decision logic, and act with greater confidence.",
           "You treat information as an operating capability rather than a static collection of documents or systems. Questions expose design opportunities. Decision logic is visible. Internal and external environments are connected. You can improve how knowledge, judgment, and learning move through the work.",
           "At this condition, you are not the central source of answers. You are the architect and steward of an environment that allows people to perform with clarity. The organization can scale contribution because its intelligence is increasingly built into the way work flows rather than held in a small number of people.",
           "This condition reflects mature APS Design: human-led, visible, connected, and continuously improved."
@@ -435,7 +435,7 @@
         "heading": "Your current condition",
         "paragraphs": [
           "AI and Automation is your ability to create the conditions required to use technology in ways that empower talent, improve decisions, and strengthen performance. The aim is **human-led, AI-amplified** work: people retain judgment and responsibility while AI and automation increase their capability to see, decide, create, and perform.",
-          "Your current condition is **Reactive**. AI and automation activity is likely driven by individual curiosity, urgent requests, vendor pressure, or isolated tool experimentation. You may see real potential, yet the work is not anchored to a defined value-stream opportunity, a consequential mandate, or the capability ecosystem required to deliver an outcome.",
+          "Your current condition is **Reactive.** AI and automation activity is likely driven by individual curiosity, urgent requests, vendor pressure, or isolated tool experimentation. You may see real potential, yet the work is not anchored to a defined value-stream opportunity, a consequential mandate, or the capability ecosystem required to deliver an outcome.",
           "That ecosystem includes clear authority, value-stream clarity, operating and technical expertise, capable people, verified learning, and evidence that the intended outcome has improved. People may be using tools, but their use is disconnected from a shared operating purpose. Authority may be unclear. The expertise required to identify, design, integrate, govern, and sustain an AI or automation solution may not be available when needed. Training, where it exists, may focus on tool exposure rather than demonstrated application.",
           "At this condition, AI and automation remain an activity. They have not yet become a designed capability for improving the work you influence."
         ]
@@ -466,7 +466,7 @@
         "readerTitle": "AI and Automation: Managed",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your AI and Automation condition is **Managed**. You have moved beyond unstructured experimentation. Specific tools, pilots, processes, or automation initiatives are in use, and you can point to examples where technology has reduced effort, improved access to information, or helped people complete work more effectively.",
+          "Your AI and Automation condition is **Managed.** You have moved beyond unstructured experimentation. Specific tools, pilots, processes, or automation initiatives are in use, and you can point to examples where technology has reduced effort, improved access to information, or helped people complete work more effectively.",
           "You may have secured support for certain initiatives and identified people with relevant technical or operational capability. However, the work is still likely organized initiative by initiative. The required capability ecosystem—leadership mandate, value-stream design, subject-matter expertise, data and process readiness, implementation support, verified learning, and benefit measurement—is not yet consistently designed as one connected system.",
           "This can create useful early results. It does not yet create a reliable way to decide where AI or automation belongs, how it will be integrated, or how people will demonstrate that they can use it effectively in the flow of work.",
           "You are managing adoption. The next requirement is to architect the conditions that make adoption repeatable."
@@ -499,7 +499,7 @@
         "readerTitle": "AI and Automation: Deliberate",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your AI and Automation condition is **Deliberate**. You are selecting opportunities with more discipline and designing adoption around a clear performance purpose. You understand that successful AI and automation require more than software. They require authority, expertise, process clarity, relevant information, enabled talent, and a defined measure of value.",
+          "Your AI and Automation condition is **Deliberate.** You are selecting opportunities with more discipline and designing adoption around a clear performance purpose. You understand that successful AI and automation require more than software. They require authority, expertise, process clarity, relevant information, enabled talent, and a defined measure of value.",
           "You are increasingly able to distinguish between an interesting technology and a consequential opportunity. AI and automation are being applied to work where they can improve decision quality, reduce friction, increase access to information, or amplify the capability of people who are responsible for outcomes.",
           "The remaining challenge is connectivity. Individual adoption environments may be well designed, but the technologies, data, information flows, and learning practices that support them are not yet fully interdependent. Value may be visible within a use case while remaining difficult to see across the wider work system.",
           "At this condition, you have established a disciplined approach. The next step is to connect that approach into an integrated capability architecture."
@@ -531,7 +531,7 @@
         "readerTitle": "AI and Automation: Integrated",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your AI and Automation condition is **Integrated**. You have connected AI and automation adoption to the value streams, information flows, decision logic, and talent systems that shape performance. Technology is increasingly selected and designed as part of a wider operating architecture rather than introduced as an isolated solution.",
+          "Your AI and Automation condition is **Integrated.** You have connected AI and automation adoption to the value streams, information flows, decision logic, and talent systems that shape performance. Technology is increasingly selected and designed as part of a wider operating architecture rather than introduced as an isolated solution.",
           "You have the ability to bring the required capabilities together: leadership authority, operational understanding, technical expertise, people who perform the work, and the learning environment needed to apply the solution. Human judgment remains central. People understand where technology strengthens their capability and where they must exercise professional responsibility.",
           "You are also more likely to verify adoption. The standard is not attendance at training or access to a platform. It is demonstrated capability, appropriate use, and evidence that the intended performance outcome has been achieved.",
           "This condition creates reliable performance gains. The leadership challenge now is to ensure that a strong adoption architecture remains adaptive as technology, work, and risk evolve."
@@ -563,7 +563,7 @@
         "readerTitle": "AI and Automation: Architected",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your AI and Automation condition is **Architected**. You have created a human-led, AI-amplified capability environment. AI and automation are deliberately connected to the way work flows, information is used, decisions are made, talent is developed, and performance is improved.",
+          "Your AI and Automation condition is **Architected.** You have created a human-led, AI-amplified capability environment. AI and automation are deliberately connected to the way work flows, information is used, decisions are made, talent is developed, and performance is improved.",
           "You consistently begin with a consequential value-stream opportunity rather than a technology preference. You bring the right authority, expertise, and operating knowledge together before the work begins. The solutions you implement are designed to extend what people can do, protect sound judgment, and make the work easier to see, understand, and improve.",
           "Learning is verified through demonstrated application. Value is measured across the full flow of work rather than assumed from tool use or enthusiasm. You have developed the capability to connect multiple technologies and processes without losing the clarity, ownership, or decision logic required for dependable performance.",
           "At this condition, AI and automation are a disciplined means of extending the capability of the people responsible for performance."
@@ -598,7 +598,7 @@
         "heading": "Your current condition",
         "paragraphs": [
           "Making the Invisible, Visible is your ability to reveal the conditions shaping performance before attempting to improve them. It requires you to engage the people doing the work, follow information, people, and material flows, ask questions that reveal what others cannot see, and make useful data visible while there is still time to prevent a failure.",
-          "Your current condition is **Reactive**. You are likely working from partial information, delayed reports, assumptions, or the perspective of the people closest to the issue. By the time a problem becomes visible, the cost has often already been absorbed: a client is dissatisfied, a deadline has been missed, capacity has been wasted, or a leader is pulled in to resolve an avoidable issue.",
+          "Your current condition is **Reactive.** You are likely working from partial information, delayed reports, assumptions, or the perspective of the people closest to the issue. By the time a problem becomes visible, the cost has often already been absorbed: a client is dissatisfied, a deadline has been missed, capacity has been wasted, or a leader is pulled in to resolve an avoidable issue.",
           "The people doing the work may see signals that the wider system does not. Their observations, questions, and workarounds are available, but they are not consistently brought into the way you diagnose performance. Information flows are rarely traced end to end, so the conditions creating delay, rework, or failure remain hidden behind the visible symptom.",
           "At this condition, you are asked to respond to performance after the system has already produced the outcome."
         ]
@@ -629,7 +629,7 @@
         "readerTitle": "Make the Invisible, Visible: Managed",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your current condition is **Managed**. You have begun to make performance more visible through reports, meetings, dashboards, feedback, process reviews, or operating metrics. You are less dependent on instinct alone and more likely to seek evidence before concluding why a problem has occurred.",
+          "Your current condition is **Managed.** You have begun to make performance more visible through reports, meetings, dashboards, feedback, process reviews, or operating metrics. You are less dependent on instinct alone and more likely to seek evidence before concluding why a problem has occurred.",
           "You may also involve people who perform the work, particularly when an issue requires attention. However, the evidence you use is often retrospective or local to one team, process, or data source. You can see more than before, but the full flow of information, people, and work is not yet consistently visible across the value stream.",
           "At this condition, you have useful management information. The next requirement is to make that information timely, connected, and close enough to the work that people can act before a preventable failure becomes expensive."
         ]
@@ -660,7 +660,7 @@
         "readerTitle": "Make the Invisible, Visible: Deliberate",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your current condition is **Deliberate**. You are actively designing how performance conditions are revealed. You engage the people who do the work to test assumptions. You use process or value-stream mapping to see how information, people, and material move. You ask questions that expose gaps between the intended way of working and the reality people experience.",
+          "Your current condition is **Deliberate.** You are actively designing how performance conditions are revealed. You engage the people who do the work to test assumptions. You use process or value-stream mapping to see how information, people, and material move. You ask questions that expose gaps between the intended way of working and the reality people experience.",
           "You are increasingly using data while there is still time to act. Rather than relying solely on monthly results, you identify early signals, examine recurring questions, and look for evidence that a process, handoff, or client experience is beginning to fail.",
           "The remaining challenge is consistency across the wider work system. Some flows may be highly visible and well understood, while others still depend on local knowledge, periodic review, or the judgment of a few experienced people. You have a disciplined method, but the visibility it creates is not yet fully connected end to end.",
           "At this condition, diagnosis is becoming a design practice rather than a response to trouble."
@@ -693,7 +693,7 @@
         "readerTitle": "Make the Invisible, Visible: Integrated",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your current condition is **Integrated**. You have connected the practices required to reveal performance conditions before they become failures. You engage the people doing the work, follow end-to-end flows, test assumptions with evidence, and place useful information close to the decisions that shape performance.",
+          "Your current condition is **Integrated.** You have connected the practices required to reveal performance conditions before they become failures. You engage the people doing the work, follow end-to-end flows, test assumptions with evidence, and place useful information close to the decisions that shape performance.",
           "Early signals are becoming part of how the organization operates. Teams can see more clearly how their work affects the next handoff, the next decision, or the next client experience. Questions, exceptions, delays, and recurring workarounds are increasingly treated as evidence about the system rather than as isolated interruptions.",
           "This gives you a stronger basis for design. You can see conditions across functional boundaries and use that visibility to align decisions, improve information flow, and prevent recurring failures. The remaining opportunity is to ensure this connected view continues to adapt as the work, people, and performance requirements change.",
           "You have made visibility an operating capability. The next challenge is to sustain its ability to reveal what is emerging."
@@ -725,7 +725,7 @@
         "readerTitle": "Make the Invisible, Visible: Architected",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your current condition is **Architected**. You have created a living visibility environment that helps people see the conditions shaping performance, act before preventable failures occur, and continuously improve how information, work, and decisions move through the organization.",
+          "Your current condition is **Architected.** You have created a living visibility environment that helps people see the conditions shaping performance, act before preventable failures occur, and continuously improve how information, work, and decisions move through the organization.",
           "You use data at decision time rather than only after the result is known. You engage people who perform the work as ongoing sources of evidence. You follow flows end to end and make questions, exceptions, and workarounds visible as inputs for improvement. The result is not simply more information. It is clearer shared understanding of what is happening, why it is happening, and where action will have the greatest effect.",
           "At this condition, visibility supports personal responsibility without blaming people for conditions the system has created. Leaders and teams can see their contribution, recognize constraints, and work together to redesign the operating environment.",
           "You have established the discipline of making the invisible visible before performance pressure forces it into view."
@@ -760,7 +760,7 @@
         "heading": "Your current condition",
         "paragraphs": [
           "System-First Thinking is your ability to see performance outcomes as the result of system design. It requires you to think above individual events, challenge strongly held paradigms, see work end to end, and diagnose the conditions shaping performance before judging the people within them.",
-          "Your current condition is **Reactive**. When performance breaks down, your attention is likely pulled toward the visible event: the missed deadline, the unhappy client, the low result, the difficult conversation, or the person closest to the problem. You may work hard to resolve what is in front of you, but the wider system that produced the outcome remains largely unexamined.",
+          "Your current condition is **Reactive.** When performance breaks down, your attention is likely pulled toward the visible event: the missed deadline, the unhappy client, the low result, the difficult conversation, or the person closest to the problem. You may work hard to resolve what is in front of you, but the wider system that produced the outcome remains largely unexamined.",
           "Decisions are often made inside functional, departmental, or immediate boundaries. People are asked to work harder, communicate more, or correct an error without a clear view of the information, incentives, handoffs, priorities, and decision rules influencing their performance.",
           "At this condition, you are managing the effects of a system that you have not yet made visible."
         ]
@@ -792,7 +792,7 @@
         "readerTitle": "System-First Thinking: Managed",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your System-First Thinking condition is **Managed**. You are beginning to recognize that performance is shaped by more than individual effort. You may use process reviews, root-cause conversations, operating measures, or cross-functional discussions to understand why a result occurred.",
+          "Your System-First Thinking condition is **Managed.** You are beginning to recognize that performance is shaped by more than individual effort. You may use process reviews, root-cause conversations, operating measures, or cross-functional discussions to understand why a result occurred.",
           "You can see that certain failures are connected to the way work is structured. However, this perspective may be applied mainly after a problem has escalated or within the boundaries of your own function. The wider value stream, the assumptions guiding the work, and the effects on connected teams or clients may not yet be consistently visible.",
           "You may also recognize limiting paradigms without having a dependable method for challenging them. Long-standing beliefs can continue to shape decisions simply because they are familiar, accepted, or difficult to question across organizational boundaries. Your system perspective is still activated in isolated diagnostic moments rather than applied through a consistent end-to-end view of how the work actually performs."
         ]
@@ -823,7 +823,7 @@
         "readerTitle": "System-First Thinking: Deliberate",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your System-First Thinking condition is **Deliberate**. You routinely look beyond the immediate issue to understand the conditions shaping performance. You think in terms of value streams, connected decisions, handoffs, information flow, and the structures that influence how people behave and perform.",
+          "Your System-First Thinking condition is **Deliberate.** You routinely look beyond the immediate issue to understand the conditions shaping performance. You think in terms of value streams, connected decisions, handoffs, information flow, and the structures that influence how people behave and perform.",
           "You are prepared to challenge strongly held paradigms when the evidence shows that they no longer serve the work. You engage people across the flow before reaching conclusions, and you recognize that a local improvement can create an unintended consequence elsewhere if the full system is not considered.",
           "The remaining challenge is to make this approach less dependent on your own perspective. You may be able to see the broader system clearly, but other leaders and teams may still make decisions through local objectives, familiar assumptions, or separate measures of success.",
           "At this condition, you are practicing systems thinking with intent. The next step is to make it a shared discipline across the work you influence."
@@ -855,7 +855,7 @@
         "readerTitle": "System-First Thinking: Integrated",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your System-First Thinking condition is **Integrated**. You have embedded a broader view of performance into the way you lead. Decisions are increasingly considered through their end-to-end effects. People are more likely to examine the information, structures, handoffs, priorities, and assumptions shaping an outcome before assigning cause or selecting a response.",
+          "Your System-First Thinking condition is **Integrated.** You have embedded a broader view of performance into the way you lead. Decisions are increasingly considered through their end-to-end effects. People are more likely to examine the information, structures, handoffs, priorities, and assumptions shaping an outcome before assigning cause or selecting a response.",
           "You have helped create shared language for discussing performance as a system. Cross-functional leaders can see how their decisions influence connected teams, clients, and value streams. Limiting paradigms are more open to examination, and improvements are less likely to be treated as isolated projects.",
           "This condition creates stronger integration, better decisions, and more disciplined use of leadership attention. The remaining responsibility is to ensure that the system perspective continues to evolve as the business, its people, and the conditions of work change.",
           "You have connected systems thinking to everyday leadership. The next challenge is to prevent a strong system view from becoming a familiar and incomplete one."
@@ -887,7 +887,7 @@
         "readerTitle": "System-First Thinking: Architected",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your System-First Thinking condition is **Architected**. You consistently see performance as the outcome of systems design. You approach visible results with disciplined curiosity: what conditions produced this outcome, what assumptions are shaping the work, and where does the full value stream reveal a design opportunity?",
+          "Your System-First Thinking condition is **Architected.** You consistently see performance as the outcome of systems design. You approach visible results with disciplined curiosity: what conditions produced this outcome, what assumptions are shaping the work, and where does the full value stream reveal a design opportunity?",
           "You have created an environment where people are able to think beyond their local role. Leaders and teams can challenge limiting paradigms, engage across functions, trace end-to-end effects, and diagnose conditions before making judgments about people. The work is increasingly guided by shared understanding rather than by individual heroics or separate interpretations.",
           "At this condition, systems thinking is more than a personal capability. It is becoming part of the organization’s operating discipline. The people you influence are better able to see connections, take personal responsibility for their contribution, and redesign conditions that limit performance.",
           "You have established the intellectual foundation of performance architecture: the capacity to see that outcomes are designed—and to improve the design deliberately."
@@ -922,7 +922,7 @@
         "heading": "Your current condition",
         "paragraphs": [
           "Talent Success is your ability to create the conditions for individual career success. Career success remains the individual’s personal responsibility. Your responsibility as a leader is to ensure the system makes success visible, connects contribution to opportunity, provides relevant development, and enables people to direct more of their own work and career.",
-          "Your current condition is **Reactive**. Development is likely addressed when a performance issue appears, a role becomes vacant, an employee asks for help, or an individual signals that they may leave. Career conversations can occur, but they are irregular, dependent on the individual manager, and disconnected from a clear view of future contribution or opportunity.",
+          "Your current condition is **Reactive.** Development is likely addressed when a performance issue appears, a role becomes vacant, an employee asks for help, or an individual signals that they may leave. Career conversations can occur, but they are irregular, dependent on the individual manager, and disconnected from a clear view of future contribution or opportunity.",
           "People may receive training, advice, or encouragement, yet they cannot easily see what they are building toward, which capabilities matter, or how their current contribution connects to a wider path. Leaders may want people to grow, but the conditions for growth are largely informal and difficult for individuals to navigate on their own.",
           "At this condition, career success depends too heavily on timing, manager availability, and the individual’s ability to find a way forward without a visible system."
         ]
@@ -953,7 +953,7 @@
         "readerTitle": "Talent Success: Managed",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your Talent Success condition is **Managed**. You have established useful people-development practices. Performance conversations, learning programs, mentoring, role descriptions, succession discussions, and career planning may be available. Individuals have more access to guidance than they would in a purely reactive environment.",
+          "Your Talent Success condition is **Managed.** You have established useful people-development practices. Performance conversations, learning programs, mentoring, role descriptions, succession discussions, and career planning may be available. Individuals have more access to guidance than they would in a purely reactive environment.",
           "However, the pieces are often managed separately. Training can sit apart from daily contribution. Career conversations can be disconnected from visible opportunities. Mentoring, education, advising, coaching, and training may exist, but people may not know when each form of support is required or how it helps them become more capable in the work they are responsible for.",
           "You may be providing real support while people remain dependent on their manager to interpret the path, recommend the next step, or open a door. Career success is better supported, but it has not yet become a visible and integrated design requirement.",
           "At this condition, you are managing development. The opportunity is to connect development to contribution, opportunity, and personal responsibility."
@@ -986,7 +986,7 @@
         "readerTitle": "Talent Success: Deliberate",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your Talent Success condition is **Deliberate**. You treat individual career success as a design requirement rather than a private conversation or an annual review activity. You are making career success more visible, connecting individual contribution to opportunity, and providing structured support through mentoring, education, advising, coaching, and training.",
+          "Your Talent Success condition is **Deliberate.** You treat individual career success as a design requirement rather than a private conversation or an annual review activity. You are making career success more visible, connecting individual contribution to opportunity, and providing structured support through mentoring, education, advising, coaching, and training.",
           "You are also creating conditions for people to take greater personal responsibility. Individuals have a clearer understanding of the work they own, the capabilities they need to develop, and the evidence through which they can demonstrate readiness for broader contribution. Development is becoming more connected to real work rather than remaining separate from it.",
           "The remaining challenge is consistency. Some leaders, roles, or teams may provide a strong development environment while others remain dependent on individual manager capability or informal access to opportunity. The components of a Talent Success system are visible, but they are not yet fully integrated into how the wider organization operates.",
           "At this condition, you have moved beyond good intentions. The next priority is to make career success increasingly self-directed and reliable across the work you influence."
@@ -1018,7 +1018,7 @@
         "readerTitle": "Talent Success: Integrated",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your Talent Success condition is **Integrated**. You have connected career success to the way work, contribution, learning, and opportunity move through the organization. Individuals can see how their role creates value, what capability they need to develop, how they can access support, and what evidence demonstrates readiness for greater responsibility or a different opportunity.",
+          "Your Talent Success condition is **Integrated.** You have connected career success to the way work, contribution, learning, and opportunity move through the organization. Individuals can see how their role creates value, what capability they need to develop, how they can access support, and what evidence demonstrates readiness for greater responsibility or a different opportunity.",
           "Mentoring, education, advising, coaching, and training are increasingly coordinated around the needs of the individual and the work. People are supported to become more self-directed: they can identify their development needs, seek relevant support, apply learning, and take personal responsibility for the contribution they make.",
           "You have also reduced the dependence on a single manager or informal network. Leaders have clearer ways to make career success visible and connect it to the systems that shape performance. Talent development is beginning to strengthen both individual potential and the capability of the wider organization.",
           "This condition creates a more reliable talent environment. The next responsibility is to ensure that integration remains responsive as people, work, and opportunities change."
@@ -1050,7 +1050,7 @@
         "readerTitle": "Talent Success: Architected",
         "heading": "Your current condition",
         "paragraphs": [
-          "Your Talent Success condition is **Architected**. You have created a visible, connected environment in which individual career success is treated as a design requirement. People can understand the contribution they are responsible for, the capabilities that increase their value, the support available to them, and the opportunities that demonstrated capability can create.",
+          "Your Talent Success condition is **Architected.** You have created a visible, connected environment in which individual career success is treated as a design requirement. People can understand the contribution they are responsible for, the capabilities that increase their value, the support available to them, and the opportunities that demonstrated capability can create.",
           "Career success remains personal responsibility. Your leadership ensures that people are not asked to carry that responsibility without the information, development access, or decision clarity required to act. Mentoring, education, advising, coaching, and training are available as connected forms of support, applied to the needs of the individual and verified through real contribution.",
           "At this condition, people are increasingly able to operate with self-direction. They can recognize what they need to learn, seek support, apply capability in the work, and pursue opportunities with greater independence. The talent system does not promise an outcome; it makes career success more visible, possible, and deliberate.",
           "You have established a talent environment where individual growth and organizational performance strengthen each other."
