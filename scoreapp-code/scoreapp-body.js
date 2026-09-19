@@ -1258,7 +1258,7 @@
 
   function resultsPage(pageNumber) {
     return page("", header(false) +
-      '<p class="tag-pa-kicker">Your results</p><h1 class="tag-pa-title">Your Current Performance Architecture Condition</h1>' +
+      '<p class="tag-pa-kicker">Your results</p><h1 class="tag-pa-title tag-pa-title-results">Your Current Performance<br>Architecture Condition</h1>' +
       '<p class="tag-pa-copy">Your five domains are ordered from the limiting condition requiring your attention first to the strongest area of your current practice. The number inside each segment shows where you currently stand.</p>' +
       '<div class="tag-pa-results-grid">' + donutSvg(domains) + '</div>' +
       '<div class="tag-pa-priority-list">' + domains.map(function (d) {
