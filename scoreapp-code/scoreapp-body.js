@@ -1171,12 +1171,7 @@
     return page("", header(false) +
       '<div class="tag-pa-kicker-row"><p class="tag-pa-kicker">Priority Domain ' + domain.order + '</p><p class="tag-pa-eyebrow">YOUR SCORE: <b>' + domain.score + ' · ' + domain.condition.toUpperCase() + '</b></p></div>' +
       '<div class="tag-pa-two"><div><h1 class="tag-pa-title">' + esc(domain.short) + '<br><span class="tag-pa-em">' + esc(domain.accent) + '</span></h1><p class="tag-pa-copy">' + esc(domain.intro) + '</p><div class="tag-pa-purpose"><h3>' + esc(domain.purposeTitle) + '</h3><p class="tag-pa-copy" style="margin-bottom:0">' + esc(domain.purpose) + '</p></div></div>' +
-      '<aside><div class="tag-pa-score-card"><p class="tag-pa-score-label">Your score</p><p class="tag-pa-score">' + domain.score + '</p><p class="tag-pa-condition">' + esc(domain.condition) + '</p></div>' + badgeList(domain.practiceTitle, domain.practices) + '</aside></div>', pageNumber);
-  }
-
-  function domainCurrentPage(domain, pageNumber) {
-    return page("", header(false) +
-      '<div class="tag-pa-kicker-row"><p class="tag-pa-kicker">Priority Domain ' + domain.order + '</p><p class="tag-pa-eyebrow">YOUR SCORE: <b>' + domain.score + ' · ' + domain.condition.toUpperCase() + '</b></p></div>' +
+      '<aside><div class="tag-pa-score-card"><p class="tag-pa-score-label">Your score</p><p class="tag-pa-score">' + domain.score + '</p><p class="tag-pa-condition">' + esc(domain.condition) + '</p></div>' + badgeList(domain.practiceTitle, domain.practices) + '</aside></div>' +
       currentBand(domain), pageNumber);
   }
 
@@ -1278,7 +1273,7 @@
       '<div class="tag-pa-roadmap" style="border-top:2px solid var(--tag-ink)">' + domains.map(function (d) {
         return '<article class="tag-pa-road-row"><span class="tag-pa-road-num">' + d.order + '</span><h4>' + esc(d.name) + '</h4><span class="tag-pa-road-score">' + d.score + '</span><p class="tag-pa-road-next">' + esc(d.condition + " · " + d.next) + '</p></article>';
       }).join("") + '</div>' +
-      '<div class="tag-pa-callout ink"><h3>Begin here</h3><p>' + highlight("Your first design priority is " + domains[0].name + ". Strengthening this condition gives the other four domains a stronger place to operate from.", domains[0].name + ".", "tag-pa-orange") + '</p></div>', 23);
+      '<div class="tag-pa-callout ink"><h3>Begin here</h3><p>' + highlight("Your first design priority is " + domains[0].name + ". Strengthening this condition gives the other four domains a stronger place to operate from.", domains[0].name + ".", "tag-pa-orange") + '</p></div>', 18);
   }
 
   function commitmentPage() {
@@ -1293,7 +1288,7 @@
       '<div class="tag-pa-field" style="border-top-color:#0bb996"><h4>First architectural decision</h4><span class="tag-pa-line"></span></div>' +
       '<div class="tag-pa-field" style="border-top-color:#0bb996"><h4>Review date</h4><span class="tag-pa-line"></span></div>' +
       '</div>' +
-      '<div class="tag-pa-callout outline"><h3>Design principle</h3><p>' + highlight("Do not attempt to repair everything at once. Make one material condition visible, then design the system required to improve it.", "Make one material condition visible, then design the system required to improve it.", "tag-pa-soft") + '</p></div>', 24);
+      '<div class="tag-pa-callout outline"><h3>Design principle</h3><p>' + highlight("Do not attempt to repair everything at once. Make one material condition visible, then design the system required to improve it.", "Make one material condition visible, then design the system required to improve it.", "tag-pa-soft") + '</p></div>', 19);
   }
 
   function resourcesPage() {
@@ -1308,7 +1303,7 @@
       '<p class="tag-pa-kicker">Continue the work</p><h1 class="tag-pa-title">The Performance Architect <span class="tag-pa-em">Center</span></h1>' +
       '<p class="tag-pa-copy">The assessment has made the conditions visible. The Performance Architect Center gives you practical resources to begin strengthening the domain that matters most to the work you influence.</p>' +
       '<div class="tag-pa-resource-grid">' + resources.map(function (r) { return '<article class="tag-pa-resource" style="border-left-color:' + r[3] + '"><p class="tag-pa-kicker" style="margin-bottom:8px">' + esc(r[0]) + '</p><h4>' + esc(r[1]) + '</h4><p>' + esc(r[2]) + '</p></article>'; }).join("") + '</div>' +
-      '<div class="tag-pa-action-band"><p>Choose the resource connected to your priority domain.</p><a href="https://tagaps.com/performance-architect-center">tagaps.com/performance-<br>architect-center</a></div>', 25);
+      '<div class="tag-pa-action-band"><p>Choose the resource connected to your priority domain.</p><a href="https://tagaps.com/performance-architect-center">tagaps.com/performance-<br>architect-center</a></div>', 20);
   }
 
   function closingPage() {
@@ -1316,7 +1311,7 @@
       '<div style="margin-top:150px"><h1 class="tag-pa-title">Your next design decision begins <span class="tag-pa-em">now.</span></h1>' +
       '<p class="tag-pa-copy">Thank you for completing the TAG Performance Architect Assessment. You have taken the first step: making the conditions shaping the work you influence visible. The next step is to choose one material condition and begin designing a better system around it.</p>' +
       '<div class="tag-pa-contact"><div><h3>Reach out</h3><p><a href="mailto:contact@tagaps.com">contact@tagaps.com</a></p></div><div><h3 class="tag-pa-lime">Explore TAG</h3><p><a href="https://www.tagaps.com">www.tagaps.com</a></p></div></div>' +
-      '<div class="tag-pa-social"><p>Stay in touch</p><div class="tag-pa-social-links"><span><i>&#9679;</i>Website</span><span><i>in</i>LinkedIn</span></div></div></div>', 26);
+      '<div class="tag-pa-social"><p>Stay in touch</p><div class="tag-pa-social-links"><span><i>&#9679;</i>Website</span><span><i>in</i>LinkedIn</span></div></div></div>', 21);
   }
 
   var leadName = getLeadName();
@@ -1332,10 +1327,9 @@
     '<p class="tag-pa-cover-tag">TAG · You’re It</p>', 1));
   pages.push(resultsPage(2));
   domains.forEach(function (domain, index) {
-    pages.push(domainPage(domain, 3 + index * 4));
-    pages.push(domainCurrentPage(domain, 4 + index * 4));
-    pages.push(consequencePage(domain, 5 + index * 4, domain.condition === "Architected"));
-    pages.push(beginPage(domain, 6 + index * 4));
+    pages.push(domainPage(domain, 3 + index * 3));
+    pages.push(consequencePage(domain, 4 + index * 3, domain.condition === "Architected"));
+    pages.push(beginPage(domain, 5 + index * 3));
   });
   pages.push(roadmapPage());
   pages.push(commitmentPage());
